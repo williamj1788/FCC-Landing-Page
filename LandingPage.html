@@ -7,28 +7,30 @@
 	</head>
 	<body>
 		<header id="header">
-			<img id="header-img" src="./images/Logo.png">
+			<img id="header-img" src=url(https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjg07uBtvjfAhWFg-AKHdPaD0EQjRx6BAgBEAU&url=https%3A%2F%2Fdesign-style-guide.freecodecamp.org%2F&psig=AOvVaw0I_9VAZ_DvM-YQiLGsycQR&ust=1547938392206484)>
 			<nav id="nav-bar">
 				<ul id="nav-items">
-					<li class="nav-link">start</li>
-					<li class="nav-link">bottom</li>
-					<li class="nav-link">begin</li>
+					<li class="nav-link" href="#header">start</li>
+					<li class="nav-link" href="#video-container">bottom</li>
+					<li class="nav-link" href="#form">begin</li>
 				</ul>
 			</nav>
 		</header>
-		<h1 id="title">FreeCodeCamp</h1>
-		<h4 class="details">Over 3000 hours of material</h4>
-		<h5 class="details">Supportive Community</h5>
-		<h3 class="details">Completely Free</h3>
-		<div id="form-container">
-			<h2 id="info-title">Get More Info Now</h2>
-			<form id="form">
-				<input id="email" type="email" placeholder="Enter your email adress">
-				<button id="submit" type="submit">Get Started</button>
-			</form>
-		</div>
-		<div id="video-container">
-			<iframe id="video" src="https://www.youtube.com/embed/WvXsY736Kz0?list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div id="main">
+			<h1 id="title">Free Code Camp</h1>
+			<h4 class="details">Over 3000 hours of material</h4>
+			<h5 class="details">Supportive Community</h5>
+			<h3 class="details">Completely Free</h3>
+			<div id="form-container">
+				<h2 id="info-title">Get More Info Now</h2>
+				<form id="form" action=url(https://www.freecodecamp.com/email-submit)>
+					<input id="email" type="email" name="email"placeholder="Enter your email adress">
+					<input id="submit" type="submit">
+				</form>
+			</div>
+			<div id="video-container">
+				<iframe id="video" src="https://www.youtube.com/embed/WvXsY736Kz0?list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 		</div>
 	</body>
 </html>

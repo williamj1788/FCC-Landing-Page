@@ -4,16 +4,31 @@
 }
 body{
 	background-color: #EAEAEA;
+	
 }
+#main{
+	margin-top: 60px;
+}
+
 #header{
-	display: flex;
+	width: 100%;
+	position: fixed;
+	top: 1px;
+	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: #EAEAEA;
-	margin-top: 10px;
+	margin-top: 0px;
+	z-index: 10;
 }
+
+#nav-bar{
+	padding-top: 10px;
+}
+
 #nav-items{
 	list-style-type: none;
+	align-items: center;
 }
 #header-img{
 	height: 60px;
@@ -26,6 +41,7 @@ body{
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
+
 #form-container{
 	max-width: 100%;
 	width: 25%;
@@ -86,6 +102,7 @@ body{
 
 .nav-link{
 	display: inline;
-	font-size: 25px;
+	font-size: 35px;
 	margin: 0 50px;
+	align-items: center;
 }
