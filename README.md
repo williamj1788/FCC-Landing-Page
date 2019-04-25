@@ -21,4 +21,4 @@
 
 ### Landing
 
-![Landing page](./Landing.PNG)
+![Landing page](./Landing.png)
